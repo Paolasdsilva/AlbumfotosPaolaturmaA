@@ -1,0 +1,62 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+   box-sizing: border-box;
+}
+
+body{
+    background-color:LavenderBlush;
+}
+.album{
+
+   display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 2vw;
+   padding: 2vw;
+}
+.foto-album img{
+
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.foto-album{
+   
+    width: 200px;
+    height: 200px;
+    border: 10px solid transparent  ; 
+}
+
+.foto-album{
+   
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(10, 10, 10);
+    flex-grow: 200;
+    box-shadow: 5px 5px 5px rgba(rgb(255, 255, 255)(253, 252, 252), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+    transition: transform .1s;
+    cursor: default;
+}
+
+
+
+
+.foto-album:hover{
+ filter: blur(0px);
+transform: scale(1.1);
+  border: 5px rgb(255, 255, 255) ;
+}
+
+h1{
+  background-color: powderblue;
+  text-align: center;
+}
+
+
+
+
+
+
